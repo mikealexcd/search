@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container-adv">
+        <div class="title-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Search</a></li>
+                    <li><a href="images.html">Images</a></li>
+                </ul>
+            </nav>
+            <h1>Advanced search</h1>
+        </div>
+        <form class="adv-form" action="https://google.com/search">
+            <h2>Find pages with</h2>
+            <div class="adv-input">
+                <label for="search1">all these words:</label>
+                <input class="adv-search" id="search1" type="text" name="q">
+                <div class="side-labels">Type the important words: <span>tri-colour rat terrier</span></div>
+            </div>
+            <div class="adv-input">
+                <label for="search2">this exact word or phrase:</label>
+                <input class="adv-search" id="search2" type="text" name="q">
+                <div class="side-labels">Put exact words in quotes: <span>"rat terrier"</span></div>
+            </div>
+            <div class="adv-input">
+                <label for="search2">any of these words</label>
+                <input class="adv-search" id="search2" type="text" name="q">
+                <div class="side-labels">Type <span>OR</span> between all the words you want: <span>"miniature OR standard"</span></div>
+            </div>
+            <div class="adv-input">
+                <label for="search2">none of these words:</label>
+                <input class="adv-search" id="search2" type="text" name="q">
+                <div class="side-labels">Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span></div>
+            </div>
+            <input class="input-btn" id="advanced-btn" type="submit" value="Advanced Search">
+        </form>
+    </div>
+    </body>
+</html>
